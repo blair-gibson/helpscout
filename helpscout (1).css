@@ -1,0 +1,210 @@
+
+
+
+body {
+    
+    font-family: 'Nunito Sans', sans-serif !important;
+    color: #414150;
+    
+    /* Font across site */
+}
+
+
+#mainNav .brand span {
+    
+    display: inline-block;
+    text-indent: -9000px;
+    width: 150px;
+    height: 60px;
+    background: url(https://app.glean.co/static/media/glean.948f7ffa.svg) no-repeat 0 0;
+    background-size: 100%;
+    
+    /* High res logo addition */
+}
+
+
+.navbar .nav a {
+    
+    
+    font-size: 1.2em;
+    
+
+    /* Larger nav font */
+    
+    
+}
+
+.navbar .nav>li>a {
+    
+    padding: 20px 15px;
+    
+    /* centers navbar menu items in container */
+}
+
+
+
+.articleFoot time.lu {
+    
+    display: none;
+    
+    /* Hides last updated time component from bottom of help articles */
+}
+
+
+
+#docsSearch {
+    
+    height: 200px;
+	background: url(https://app.glean.co/static/media/clouds.959ad853.svg) no-repeat center 100% / cover transparent;
+    background-color: #0064dc;
+	border-bottom: none;
+	padding-top: 75px;
+	position: relative;
+	top: -1px;
+    
+    
+    /* Search background styling - need to insert cloud background */
+
+}
+
+
+#docsSearch h1 {
+    
+    display: none !important;
+    
+    /* Makes search bar heading hidden while retaining screen reader visibility */
+
+}
+
+
+
+#searchBar button {
+        
+    border: 0 !important;
+    padding: .9em !important;
+    background: 0 0 !important;
+    border-left: 0 !important;
+
+        
+    /* white background button with glean blue text */
+
+}
+   
+#searchBar button .icon-search {
+    display: block !important;
+}
+
+#searchBar button span {
+    display: none !important;
+    
+     /* overrides 'search' text in search bar. Option to make #fff to retain text for accessibility */
+}
+
+#searchBar button .icon-search:before {
+    content: "\e601" !important;
+    
+    /* loads search icon */
+}
+    
+
+
+.category-list .category {
+
+    background-color: #fff;
+    background-position: top 20px center !important;
+    background-repeat: no-repeat !important;
+    background-size: 100px auto !important;
+    box-shadow: 0 7px 4px -5px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    box-sizing: border-box;
+    min-height: 183px;
+    padding: 120px 20px 15px;
+    position: relative;
+    width: 31.5%;
+    transition: all 0.2s
+        
+    /* Category box styling */
+        
+}
+
+
+.category-list h3 {
+    
+    color: #0064dc;
+    font-weight: 600;
+    
+    /* Blue and bold headings for category boxes */
+}
+
+
+#category-5 {
+    
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/d/df/Noto_Emoji_Oreo_1f680.svg);
+
+    /* Getting started graphic */
+
+}
+
+#category-18 {
+    
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Noto_Emoji_KitKat_2754.svg/120px-Noto_Emoji_KitKat_2754.svg.png);
+
+    /* FAQs graphic */
+
+}
+
+#category-17 {
+    
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Emoji_u1f60e.svg/128px-Emoji_u1f60e.svg.png);
+
+    /* Admin basics graphic */
+
+}
+
+#category-41 {
+    
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Noto_Emoji_KitKat_2754.svg/120px-Noto_Emoji_KitKat_2754.svg.png);
+
+    /* FAQs 2 graphic */
+
+}
+
+
+.article-count {
+    
+    display: none !important;
+        
+        /* Hides article count (or use display: none?) */
+
+}
+
+
+#fullArticle .callout-yellow {
+    
+    border-color: #fbb926;
+    
+    /* callouts in yellow branded glean yellow */
+}
+
+#fullArticle .callout-blue {
+    
+    border-color: #0064dc;
+    
+    /* callouts in blue branded glean blue */
+}
+
+
+.category-list .category, .category-list.two-col .category {
+    
+    margin: inherit !important;
+    
+    /* margin has lack of spacing on mobile version, this fixes */
+
+}
+
+
+
+
+
+        
+        
